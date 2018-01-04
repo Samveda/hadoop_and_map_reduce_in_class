@@ -37,5 +37,5 @@ patterns, trends, and associations, especially relating to human behavior and in
 ## Post Reads
 1. [mrjob](https://github.com/Yelp/mrjob) is a Python library from [Yelp](https://www.yelp.com/sf) that wraps map-reduce and can run jobs on EMR.
 2. [Luigi](https://github.com/spotify/luigi) is a Python library from [Spotify](https://www.spotify.com/us/) that lets you write map-reduce workflows more easily.
-3. [Cascading](www.cascading.org) is a layer on top of Hadoop that has further layers such as (Scalding)[https://github.com/twitter/scalding] ([Scala](http://www.scala-lang.org/)) from [Twitter](https://twitter.com/) - yet another way to simplify working with map-reduce.
+3. [Cascading](www.cascading.org) is a layer on top of Hadoop that has further layers such as [Scalding](https://github.com/twitter/scalding) ([Scala](http://www.scala-lang.org/)) from [Twitter](https://twitter.com/) - yet another way to simplify working with map-reduce.
 
