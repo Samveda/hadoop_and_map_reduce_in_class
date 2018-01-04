@@ -1,0 +1,62 @@
+
+export HADOOP_PREFIX=/usr/local/hadoop
+export PATH=$PATH:$HADOOP_PREFIX/bin
+export PATH=$PATH:$HADOOP_PREFIX/sbin
+export HADOOP_MAPRED_HOME=${HADOOP_PREFIX}
+export HADOOP_COMMON_HOME=${HADOOP_PREFIX}
+export HADOOP_HDFS_HOME=${HADOOP_PREFIX}
+export YARN_HOME=${HADOOP_PREFIX}
+
+
+export JAVA_HOME=/usr
+export PATH=$PATH:$JAVA_HOME/bin
+
+export HIVE_HOME=/usr/local/hive
+export PATH=$PATH:$HIVE_HOME/bin
+
+export DERBY_HOME=/usr/local/derby
+export PATH=$PATH:$DERBY_HOME/bin 
+export CLASSPATH=$CLASSPATH:$DERBY_HOME/lib/derby.jar:$DERBY_HOME/lib/derbytools.jar
+
+export SQOOP_HOME=/usr/local/sqoop
+export PATH=$PATH:$SQOOP_HOME/bin
+
+export FLUME_HOME=/usr/local/flume 
+export PATH=$PATH:$FLUME_HOME/bin/
+export CLASSPATH=$CLASSPATH:/FLUME_HOME/lib/* 
+
+
+export PATH=$PATH:/usr/local/pig/bin
+export PIG_HOME=/usr/local/pig
+export PIG_CLASSPATH=$HADOOP_HOME/conf
+
+export SCALA_HOME=/usr/local/scala
+export PATH=$PATH:$SCALA_HOME/bin
+
+export HBASE_HOME=/usr/local/hbase
+export PATH=$PATH:$HBASE_HOME/bin
+
+
+export PYSPARK_PYTHON=/home/spark/anaconda2/bin
+export PATH=$PATH:$PYSPARK_PYTHON/bin
+
+export SPARK_HOME=/usr/local/spark
+export PATH=$PATH:$SPARK_HOME/bin
+
+
+export PYSPARK_DRIVER_PYTHON=home/spark/anaconda2/bin/jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS=notebook
+
+#--profile=pyspark $SPARK_HOME/bin/pyspark
+
+export PYTHONPATH=/home/spark/anaconda2
+export PYTHONPATH=$PATH:$PYTHONPATH/bin
+
+
+export PYSPARK_SUBMIT_ARGS="--master local[*] pyspark-shell"
+#export PYSPARK_SUBMIT_ARGS="--master local[5] --num-executors 5 \ --total-executor-cores 5 --executor-memory 10g pyspark-shell"
+
+
+
+# added by Anaconda2 4.3.1 installer
+export PATH="/home/spark/anaconda2/bin:$PATH"
