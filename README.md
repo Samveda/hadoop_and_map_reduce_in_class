@@ -1,6 +1,6 @@
-# HADOOP and MAP REDUCE
-
 ![GitHub Logo](https://s3.ap-south-1.amazonaws.com/greyatom-social/GreyAtom-logo.png)
+
+# HADOOP and MAP REDUCE
 
 Large and complex data, difficult to process them using traditional data processing applications as it is computationally difficult to reveal
 patterns, trends, and associations, especially relating to human behavior and interactions. Apache Hadoop is an open-source software framework used for distributed storage and processing of dataset of big data using the MapReduce programming model.
@@ -16,9 +16,9 @@ patterns, trends, and associations, especially relating to human behavior and in
 
 ## Pre Reads
 
-1. [History of how big data actually evolved](https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/gilpress/2013/05/09/a-very-short-history-of-big-data/&refURL=http://app.commit.live/lesson/big-data-day-1&referrer=http://app.commit.live/lesson/big-data-day-1#89d2ea465a18)
-2. [Big Data Story Map](https://www.youtube.com/watch?v=iFyGuvyesw4)
-3. [Why Big Data Matters](https://www.forbes.com/sites/gregsatell/2013/10/11/why-big-data-matters/#3ed7faf91304)
+1. [Original map-reduce paper](https://research.google.com/archive/mapreduce.html)
+2. [MapReduce Tutorial](https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html)
+3. [MapReduce_wiki](https://en.wikipedia.org/wiki/MapReduce)
 
 ## Learning Objectives
 
@@ -32,16 +32,10 @@ patterns, trends, and associations, especially relating to human behavior and in
 
 ## Slides
 
-<embed src="https://raw.githubusercontent.com/commit-live-students/big_data_hadoop_in_class/master/notebooks/Hadoop_Day-1a-Introduction.pdf" type="application/pdfjs" width="800px" height="800px" />
-
-[Big Data and Hadoop Introduction](https://raw.githubusercontent.com/commit-live-students/big_data_hadoop_in_class/master/notebooks/Hadoop_Day-1a-Introduction.pdf)
-
 [Hadoop and Map Reduce](https://raw.githubusercontent.com/commit-live-students/big_data_hadoop_in_class/master/notebooks/Hadoop_Day-2-%20Introduction%20YARN%20Hadoop.pdf)
 
 ## Post Reads
-1. [Comparing the top Hadoop distributions](https://www.networkworld.com/article/2369327/software/comparing-the-top-hadoop-distributions.html)
-2. [Original mapreduce paper](https://research.google.com/archive/mapreduce.html)
-3. [How google uses Big Data](https://datafloq.com/read/google-applies-big-data-infographic/385)
-4. [How CERN uses Big Data](https://www.youtube.com/watch?v=mYLdF0M-Nk0)
-
+1. [mrjob](https://github.com/Yelp/mrjob) is a Python library from [Yelp](https://www.yelp.com/sf) that wraps map-reduce and can run jobs on EMR.
+2. [Luigi](https://github.com/spotify/luigi) is a Python library from [Spotify](https://www.spotify.com/us/) that lets you write map-reduce workflows more easily.
+3. [Cascading](www.cascading.org) is a layer on top of Hadoop that has further layers such as (Scalding)[https://github.com/twitter/scalding] ([Scala](http://www.scala-lang.org/)) from [Twitter](https://twitter.com/) - yet another way to simplify working with map-reduce.
 
