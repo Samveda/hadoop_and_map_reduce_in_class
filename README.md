@@ -22,13 +22,18 @@ patterns, trends, and associations, especially relating to human behavior and in
 
 ## Learning Objectives
 
-- Understand the motivation for Big Data
-- Understand the storage layer underlying Big Data - HDFS
-- Store and retrieve data in HDFS
-- Big Data Motivation
-- Introduction to Hadoop & Ecosystem
-- Setup CLoudera environment
-- Interaction with HDFS
+- Understand the need for the MapReduce paradigm
+- Understand the functioning of MapReduce and walk through a sample program
+- Understand the underlying architecture of MapReduce
+- Learn about special features and functionality that MapReduce provides
+- Think and Do in MapReduce
+
+## Agenda
+
+- Why Mapreduce
+- Mapreduce Architecture
+- Thinking in Mapreduce
+- Mapreduce code walkthrough
 
 ## Slides
 
