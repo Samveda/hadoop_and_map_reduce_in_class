@@ -2,8 +2,7 @@
 
 # HADOOP and MAP REDUCE
 
-Large and complex data, difficult to process them using traditional data processing applications as it is computationally difficult to reveal
-patterns, trends, and associations, especially relating to human behavior and interactions. Apache Hadoop is an open-source software framework used for distributed storage and processing of dataset of big data using the MapReduce programming model.
+MapReduce is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster. MapReduce libraries have been written in many programming languages, with different levels of optimization. A popular open-source implementation that has support for distributed shuffles is part of Apache Hadoop.
 
 ## At a glance
 * In Class Instruction: 4 Hours
