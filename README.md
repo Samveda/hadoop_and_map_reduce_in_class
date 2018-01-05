@@ -36,7 +36,7 @@ MapReduce is a programming model and an associated implementation for processing
 
 ## Slides
 
-[Hadoop and Map Reduce](https://raw.githubusercontent.com/commit-live-students/big_data_hadoop_in_class/master/notebooks/Hadoop_Day-2-%20Introduction%20YARN%20Hadoop.pdf)
+[Hadoop and Map Reduce](https://github.com/commit-live-students/hadoop_and_map_reduce_in_class/blob/master/notebooks/Hadoop_Day-2-%20Introduction%20YARN%20Hadoop.pdf)
 
 ## Post Reads
 1. [mrjob](https://github.com/Yelp/mrjob) is a Python library from [Yelp](https://www.yelp.com/sf) that wraps map-reduce and can run jobs on EMR.
